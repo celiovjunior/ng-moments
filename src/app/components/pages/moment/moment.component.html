@@ -7,7 +7,7 @@
   </div>
   <div class="actions">
     <h3>Actions:</h3>
-    <a class="edit-btn" href="/moments/edit/{{ moment.id }}">
+    <a class="edit-btn" routerLink="/moments/edit/{{ moment.id }}">
       <fa-icon [icon]="faEdit"></fa-icon> Edit
     </a>
     <button (click)="removeHandler(moment.id!)" class="remove-btn">
